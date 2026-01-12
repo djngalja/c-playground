@@ -1,0 +1,8 @@
+Hello World
+Goodbye World
+Hello Universe
+Line with HELLO
+Empty line follows:
+
+Line with tabs	and	spaces
+Special chars: . * ? +
