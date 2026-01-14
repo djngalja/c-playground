@@ -1,5 +1,4 @@
 # My Grep Utility
-
 Custom implementation of the `grep` command-line utility for searching patterns inside text files.
 
 ## Features
@@ -20,7 +19,6 @@ Custom implementation of the `grep` command-line utility for searching patterns 
 - **Compatible with POSIX `grep`**
 
 ## Build
-
 ```bash
 make                 # Build the executable (creates 'my_grep')
 make all             # Same as 'make'
@@ -34,4 +32,12 @@ make test            # Run automated tests
 ./my_grep [flags...] pattern [files...]
 ./my_grep [flag] -f pattern_file [files...]
 ./my_grep [flag] -e pattern1 -e pattern2 [files...]
+```
+
+## Examples
+```bash
+./my_grep hello file.txt
+./my_grep -e hello -e world file.txt
+./my_grep -f patterns.txt file.txt
+./my_grep -iv hello file.txt
 ```
