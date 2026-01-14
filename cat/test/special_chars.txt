@@ -1,0 +1,4 @@
+quote"
+backslash\nquestion?
+ampersand&
+pipe|
